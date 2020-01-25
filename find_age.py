@@ -1,7 +1,7 @@
 import datetime
 i = datetime.datetime.now()
 
-
+print("I am learning to code")
 print("FIND YOUR AGE EASILY, WITH THIS LITTLE PROGRAM")
 print("************************************************")
 
