@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0e0d39;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #0e0d39;
+    border: 1px solid;
+    border-radius: 40px;
+    box-shadow: 0 0 20px #000;
+    margin: 50px 150px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-family: "Pacifico", cursive;
+    padding: 10px 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.menu ul li a,
+.menu ul button a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: "Uncial Antiqua", cursive;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.get_started {
+    display: inline;
+    color: white;
+    background-color: #0e0d39;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 10px 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 50px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.text h4 {
+    margin-bottom: 25px;
+}
+
+.social ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.social ul li img {
+    width: 30px;
+    margin: 20px 10px;
+}
+
+.red {
+    background-color: red;
+    height: 50px;
+    margin-top: -27px;
+    padding-top: 25px;
+}
+
+.hire_me {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    background-color: red;
+    border-radius: 40px;
+    padding: 10px 30px;
+    font-family: "Uncial Antiqua", cursive;
+}
+
+.buttons {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.main_image img {
+    width: 500px;
+    transform: rotateY(180deg);
+    margin-right: 15px;
+    border: 1px;
+    border-radius: 40px;
+}
